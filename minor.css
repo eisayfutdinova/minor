@@ -1,0 +1,184 @@
+body{
+  background-color: black;
+  height: 100%;
+  font-size: 10px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+svg:hover {
+  fill: white;
+}
+.inline-style {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.end{
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.container{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.log-in-header{
+  width: 100%;
+  height: 49px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+.login{
+  color: #FFFFFF;
+  background: #000000;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font: normal normal normal 14px/1.79em montserrat,sans-serif;
+  border: 0;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.header-end {
+  border-top: 1px solid white;
+}
+.menu-header{
+  margin-top: 28px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title{
+  color: #FFFFFF;
+  line-height: 1.41em;
+  font: normal normal normal 22px/1.41em montserrat,sans-serif;
+}
+
+.menu{
+  color: white;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+ul > li {
+    display: inline-block;
+    vertical-align: baseline;
+    /* You can also add some margins here to make it look prettier */
+    margin-left: 12px;
+    zoom:1;
+    *display:inline;
+    font: normal normal normal 14px/1.79em montserrat,sans-serif;
+    /* this fix is needed for IE7- */
+}
+
+.work-from-home {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-top: 90px;
+}
+
+.introduction{
+  font: normal normal normal 72px/1.25em montserrat,sans-serif;
+  color: white;
+  text-align: center;
+}
+.introduction1{
+  font: normal normal normal 42px/1.25em montserrat,sans-serif;
+  color: white;
+  text-align: center;
+}
+.font_7{
+  font: normal normal normal 20px/1.67em montserrat,sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.pic2 {
+  width: 47%;
+  margin-right: 40px;
+}
+
+.pictures{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.develop{
+  color: white;
+  margin-top: 30px;
+  font: normal normal normal 22px/1.41em montserrat,sans-serif;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+#dev-text{
+  margin-right: 50px;
+  width: 50%;
+}
+
+.frontend{
+  width: 50%;
+  text-align: center;
+  font: normal normal normal 15px/1.875em montserrat,sans-serif;
+}
+
+.contact {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.write-us{
+  width: 50%;
+  height: 300px;
+  background-color: #191919;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+#write{
+  font: normal normal normal 40px/1.35em montserrat,sans-serif;
+  color: white;
+}
+
+#address{
+  font: normal normal normal 15px/1.875em montserrat,sans-serif;
+  color: white;
+}
+.authors{
+  color: white;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+.portfolio-header{
+  font: normal normal normal 42px/1.25em montserrat,sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.about-me{
+  width: 50%;
+  margin-right: 40px;
+  height: 400px;
+  background-color: #191919;
+  font: normal normal normal 20px/1.67em montserrat,sans-serif;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
